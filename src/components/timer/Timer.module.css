@@ -1,0 +1,20 @@
+.container {
+	border: .1rem solid gray;
+	border-radius: .3rem;
+	padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	width: 20rem;
+	margin: 3rem auto;
+}
+
+.btnContainer {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+button {
+	width: 6rem;
+	padding: .5rem;
+	cursor: pointer;
+}
